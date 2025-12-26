@@ -6,7 +6,7 @@ A Python framework that uses Large Language Models (LLMs) to intelligently route
 
 ### 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/AlbertGoTri/LLM-Agent-Framework-for-Customer-Service-Routing.git
 cd LLM-Agent-Framework-for-Customer-Service-Routing
 ```
 
