@@ -1,0 +1,239 @@
+{
+  "timestamp": "2025-12-26T21:05:20.215870",
+  "summary": [
+    {
+      "provider": "groq",
+      "model": "llama-3.1-8b-instant",
+      "accuracy": 96.67,
+      "avg_latency_ms": 996.95,
+      "correct": 29,
+      "incorrect": 1,
+      "errors": 0
+    }
+  ],
+  "detailed_results": [
+    {
+      "provider": "groq",
+      "model": "llama-3.1-8b-instant",
+      "total": 30,
+      "correct": 29,
+      "incorrect": 1,
+      "errors": 0,
+      "accuracy": 96.67,
+      "avg_latency_ms": 996.95,
+      "total_latency_ms": 29908.55,
+      "details": [
+        {
+          "query": "What is your return policy?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 473.92
+        },
+        {
+          "query": "Can I return an item after 30 days?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 157.82
+        },
+        {
+          "query": "How do I return something?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 153.69
+        },
+        {
+          "query": "Do you accept returns on sale items?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 162.32
+        },
+        {
+          "query": "How long does shipping take?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 159.45
+        },
+        {
+          "query": "What are your shipping options?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 156.01
+        },
+        {
+          "query": "Do you offer free shipping?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 171.28
+        },
+        {
+          "query": "How much does delivery cost?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 160.27
+        },
+        {
+          "query": "What are your store hours?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 152.06
+        },
+        {
+          "query": "When do you open?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 166.44
+        },
+        {
+          "query": "Are you open on weekends?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 151.05
+        },
+        {
+          "query": "What time do you close?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 162.61
+        },
+        {
+          "query": "Where is your store located?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 156.41
+        },
+        {
+          "query": "What's your address?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 155.52
+        },
+        {
+          "query": "Do you have a physical store?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 159.98
+        },
+        {
+          "query": "Where is my order 101?",
+          "expected": "ORDER",
+          "predicted": "ORDER",
+          "correct": true,
+          "latency_ms": 158.56
+        },
+        {
+          "query": "What's the status of order 102?",
+          "expected": "ORDER",
+          "predicted": "ORDER",
+          "correct": true,
+          "latency_ms": 170.17
+        },
+        {
+          "query": "Track my order 103",
+          "expected": "ORDER",
+          "predicted": "ORDER",
+          "correct": true,
+          "latency_ms": 155.71
+        },
+        {
+          "query": "Has order 101 shipped yet?",
+          "expected": "ORDER",
+          "predicted": "ORDER",
+          "correct": true,
+          "latency_ms": 2219.9
+        },
+        {
+          "query": "Where is my package?",
+          "expected": "ORDER",
+          "predicted": "ORDER",
+          "correct": true,
+          "latency_ms": 2216.99
+        },
+        {
+          "query": "When will my order arrive?",
+          "expected": "ORDER",
+          "predicted": "ORDER",
+          "correct": true,
+          "latency_ms": 2239.78
+        },
+        {
+          "query": "My order hasn't arrived yet",
+          "expected": "ORDER",
+          "predicted": "ORDER",
+          "correct": true,
+          "latency_ms": 2215.22
+        },
+        {
+          "query": "I want to track my delivery",
+          "expected": "ORDER",
+          "predicted": "ORDER",
+          "correct": true,
+          "latency_ms": 2230.28
+        },
+        {
+          "query": "Has my order been delivered?",
+          "expected": "ORDER",
+          "predicted": "ORDER",
+          "correct": true,
+          "latency_ms": 2221.2
+        },
+        {
+          "query": "Is my package out for delivery?",
+          "expected": "ORDER",
+          "predicted": "ORDER",
+          "correct": true,
+          "latency_ms": 2223.62
+        },
+        {
+          "query": "When was my order shipped?",
+          "expected": "ORDER",
+          "predicted": "ORDER",
+          "correct": true,
+          "latency_ms": 2220.68
+        },
+        {
+          "query": "I have a question about my order 101",
+          "expected": "ORDER",
+          "predicted": "ORDER",
+          "correct": true,
+          "latency_ms": 2250.15
+        },
+        {
+          "query": "Can I return order 102?",
+          "expected": "ORDER",
+          "predicted": "ORDER",
+          "correct": true,
+          "latency_ms": 2228.72
+        },
+        {
+          "query": "How do returns work?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 2235.57
+        },
+        {
+          "query": "What happens if my package is lost?",
+          "expected": "FAQ",
+          "predicted": "ORDER",
+          "correct": false,
+          "latency_ms": 2223.18
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "timestamp": "2025-12-26T21:12:35.766685",
+  "summary": [
+    {
+      "provider": "google",
+      "model": "gemini-2.5-flash",
+      "accuracy": 100.0,
+      "avg_latency_ms": 429.56,
+      "correct": 15,
+      "incorrect": 0,
+      "errors": 0
+    }
+  ],
+  "detailed_results": [
+    {
+      "provider": "google",
+      "model": "gemini-2.5-flash",
+      "total": 15,
+      "correct": 15,
+      "incorrect": 0,
+      "errors": 0,
+      "accuracy": 100.0,
+      "avg_latency_ms": 429.56,
+      "total_latency_ms": 12886.92,
+      "details": [
+        {
+          "query": "What is your return policy?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 756.46
+        },
+        {
+          "query": "Can I return an item after 30 days?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 945.12
+        },
+        {
+          "query": "How do I return something?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 718.21
+        },
+        {
+          "query": "Do you accept returns on sale items?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 721.71
+        },
+        {
+          "query": "How long does shipping take?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 718.59
+        },
+        {
+          "query": "What are your shipping options?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 541.15
+        },
+        {
+          "query": "Do you offer free shipping?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 564.72
+        },
+        {
+          "query": "How much does delivery cost?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 668.98
+        },
+        {
+          "query": "What are your store hours?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 502.41
+        },
+        {
+          "query": "When do you open?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 522.59
+        },
+        {
+          "query": "Are you open on weekends?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 580.03
+        },
+        {
+          "query": "What time do you close?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 576.55
+        },
+        {
+          "query": "Where is your store located?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 511.62
+        },
+        {
+          "query": "What's your address?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 977.31
+        },
+        {
+          "query": "Do you have a physical store?",
+          "expected": "FAQ",
+          "predicted": "FAQ",
+          "correct": true,
+          "latency_ms": 600.13
+        }
+      ]
+    }
+  ]
+}
