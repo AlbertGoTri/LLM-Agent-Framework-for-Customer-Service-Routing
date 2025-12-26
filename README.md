@@ -7,7 +7,7 @@ A Python framework that uses Large Language Models (LLMs) to intelligently route
 ### 1. Clone the repository
 ```bash
 git clone <repository-url>
-cd NordHealth-Assignment
+cd LLM-Agent-Framework-for-Customer-Service-Routing
 ```
 
 ### 2. Create and activate a virtual environment (recommended)
