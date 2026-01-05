@@ -23,6 +23,10 @@ source .venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+Alternatively, 
+```bash
+python -m pip install -r requirements.txt
+```
 
 ### 4. Configure API keys
 Edit the `environment.env` file with your API keys:
